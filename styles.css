@@ -206,3 +206,109 @@ margin-right: 25px;
     width: 1500px;
     height: 380px;
     padding: 30px 30px;  
+    font-size: 25px;        
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.objetivosimg{
+
+width: auto;
+height: 500px;    
+float: left;
+margin-right: 25px;
+}
+/* estas son las estrategias */
+.contenedorestrategias{
+
+    width: 1500px;
+    height: 380px;
+    padding: 30px 30px;
+    font-size: 25px;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estrategiasimg{
+
+width: 550px;
+height: 450px;    
+float: left;
+margin-right: 25px;
+}
+
+/* estas son las politicas y valores */
+.contenedorpoliticas{
+
+    width: 1500px;
+    height: 310px;
+    padding: 30px 30px;
+
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.politicasimg{
+
+width: 500px;
+height: 350px;    
+
+margin-right: 25px;
+}
+
+
+/* configuracion tabla */
+
+.contenedortabla{
+
+width: 900px;
+height: 380px;
+padding: 30px 30px;
+
+background-color:rgba(255, 255, 255, 0);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+}
+
+th, td{
+border: solid 1px silver;
+padding: 20px;
+}
+
+thead{
+background-color: #fdebd0;
+border-bottom: solid 5px;
+color: #212121;	
+}
+
+th{
+background-color: #fdebd0; 
+}
+
+tr:nth-child(even){
+background-color: #eedabc;
+}
+
+tr:nth-child(odd){
+background-color: #fcd498;
+}          
