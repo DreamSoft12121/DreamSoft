@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2? family= Inconsolata & display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+body{
+    color:#fdebd0;
+}
+
+header{
+    width: 100%;
+}
+
+.header{
+    background-color: #bfc9ca ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.header .nav-links li:hover{
+    padding: 30px;
+    padding-top: 35px; 
+	line-height: normal;
+	text-decoration: none;
+	color: #fff;
+	transition: all 1s ease;
+	border-bottom: 5px solid transparent;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #212121;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #fdebd0;
+    padding: 5px 20px;
+    background: #000000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.header .btn button:hover{
+    background-color: #fdebd0;
+    color: #000000;
+    transform: scale(1.1);
+}
+/*fin de barra de encabezado*/
+
+
+/*Menù lateral*/
+#bton-menu{
+	display: none;
+}
+.container-menu{
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100vh;
+	top: 0;right: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#bton-menu:checked ~ .container-menu{
+	opacity: 1;
+	visibility: visible;
